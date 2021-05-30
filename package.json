@@ -1,0 +1,22 @@
+{
+  "name": "covid-vaccination-slots-notifier",
+  "version": "1.0.0",
+  "description": "Lightweight NodeJS app to give notification about available slots ",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riya Singh",
+  "license": "ISC",
+  "bin": {
+    "cowin": "./bin/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "node-notifier": "^9.0.1",
+    "tty-table": "^4.1.3"
+  }
+}
